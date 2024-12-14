@@ -1,0 +1,79 @@
+* {
+    padding: 0 0;
+    margin: 0 0;
+    background-color: #003777;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: 1px solid white;
+}
+
+section {
+    margin-top: 40px;
+    padding: 40px 40px;
+}
+
+button {
+    padding: 5px 5px;
+    margin-top: 15px;
+    background-color: white;
+    color: #003;
+    cursor: pointer;
+}
+
+#fetchData,
+#fetchDataXHR {
+    padding: 40px 40px;
+
+}
+
+h3 {
+    color: #003;
+}
+
+#fetchDataTitle,
+#fetchDataXHRTitle {
+    font-size: 24px;
+    Font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+}
+
+#fetched {
+    margin-bottom: 20px;
+
+}
+
+#status {
+    color: orange;
+}
+
+form input {
+    Width: 250px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+textarea {
+    margin-bottom: 35px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 10px 10px;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+#postData {
+    margin-bottom: 50px;
+}

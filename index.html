@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Lab10_API_Calls</title>
+</head>
+
+<body>
+    <header>
+        Lab10: API Calls in JavaScript
+    </header>
+
+    <section id="fetched">
+        <button id="doFetch">Fetch Data with fetch()</button> <br>
+        <div id="fetchData">
+            <h3>Fetched Data Title: </h3><br>
+            <p id="fetchDataTitle"></p>
+            <h3>Fetched Data Body: </h3><br>
+            <p id="fetchDataBody"></p>
+        </div>
+
+        <button id="doFetchXHR">Fetch Data with XHR</button> <br>
+        <div id="fetchDataXHR">
+            <h3>Fetched Data Title:</h3><br>
+            <p id="fetchDataXHRTitle"></p>
+            <h3>Fetched Data Body: </h3><br>
+            <p id="fetchDataXHRBody"></p>
+        </div>
+
+    </section>
+
+    <section id="postData">
+        <h2>Post Section: </h2><br><br>
+
+        <form action="#">
+            <p id="status"></p><br>
+
+            <label for="title"> Type in the post title: </label>
+            <input type="text" id="title" required /><br>
+
+            <label for="body" id="labelBody"> Type in the post body: </label><br>
+            <textarea rows="5" cols="50" id="body" placeholder="Enter text here" required></textarea><br>
+
+            <label for="id"> Type in the post ID: </label>
+            <input type="text" id="id" required /><br>
+
+            <button type="submit" id="submitForm"> Submit </button>
+
+        </form>
+
+        <p id="updatedData"></p><br>
+        <button id="pullXHR">Please click here to implement the XHR PUT request</button> <br><br>
+
+        <p id="deletedData"></p><br>
+        <button id="delete">Please click here to delete a post</button> <br><br>
+
+
+    </section>
+
+</body>
+
+</html>
